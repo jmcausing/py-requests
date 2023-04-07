@@ -1,3 +1,11 @@
+# Python app that accepts string request
+# Author: John Mark Causing
+# Date: April 7, 2023
+# Example usage:
+# curl https://py-requests-optgf.kinsta.app/greet?name=john
+# Hello, john!
+
+
 from flask import Flask, request
 
 app = Flask(__name__)
