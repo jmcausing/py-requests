@@ -74,7 +74,7 @@ class process_encoding:
             name = request.args.get("name")
 
             if name:
-                return f"Hello, {name}! xx"
+                return f"Hello, {name}!"
             else:
                 return "Please provide a name."
 

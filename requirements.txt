@@ -1,2 +1,4 @@
 flask
+cmake
+dlib
 face_recognition
